@@ -3,28 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <title>Tabela</title>
+    <style>
+        table, th, tr, td {
+            border: 3px solid;
+            border-collapse: collapse;
+            border-color: #214a79;
+            max-width: 500px;
+            width: 500px;
+            height: 35px;
+        }
+        .Model {
+            color: #287bbc;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+        }
+        #one {
+            background-color: #1e4b23;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: normal;
+        }
+        #two {
+            background-color: #19692c;
+        }
+        #three {
+            background-color: #309062;
+        }
+        #four {
+            background-color: #5fada0;
+        }
+        #five {
+            background-color: #83b5c0;
+        }
+        #six {
+            background-color: #a6c4de;
+        }
+        #seven {
+            background-color: #a1c4ea;
+        }
+        #thr {
+            color: white;
+            font-weight: bold;
+        }
+        #tw {
+            color: #255363;
+            font-weight: bold;
+        }
+        #akt {
+            color: white;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-    <table border="3">
-        <caption>Tabela</caption>
-        <thead>
-            <tr>
-                <th>Kolumna 1</th>
-                <th>Kolumna 2</th>
-                <th>Kolumna 3</th>
-                <th>Kolumna 4</th>
-                <th>Kolumna 5</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Komórka 1</td>
-                <td>Komórka 2</td>
-                <td>Komórka 3</td>
-                <td>Komórka 4</td>
-                <td>Komórka 5</td>
-            </tr>
-        </tbody>
+    <table>
+        <thead><p id="tw">Dane komputerowe - Korol Vladyslav 2F1</p></thead>
+        <tr>
+            <th id="one">Model karty graficznej</th>
+            <th id="one">Cena</th>
+            <th id="one">Rozmiar pamięci</th>
+            <th id="one">Szyna pamięci</th>
+            <th id="one">Typ chlodzenia</th>
+        </tr>
+        <tr>
+            <td id="two" class="Model">RTX 2080</td>
+            <td id="two"><p id="thr">3700 zl</p></td>
+            <td id="two"><p id="thr">8 GB</p></td>
+            <td id="two"><p id="thr">256-bit</p></td>
+            <td id="two"><p id="akt">Aktywne</p></td>
+        </tr>
+        <tr>
+            <td id="three" class="Model">RTX 2070</td>
+            <td id="three"><p id="thr">2700 zl</td>
+            <td id="three"><p id="thr">8 GB</td>
+            <td id="three"><p id="thr">256-bit</td>
+            <td id="three"></td>
+        </tr>
+        <tr>
+            <td id="four" class="Model">RTX 2060</td>
+            <td id="four"><p id="thr">2060 zl</p></td>
+            <td id="four"><p id="thr">6 GB</p></td>
+            <td id="four"><p id="thr">192-bit</p></td>
+            <td id="four"></td>
+        </tr>
+        <tr>
+            <td id="five" class="Model">GTX 1660</td>
+            <td id="five"><p id="tw">1400 zl</p></td>
+            <td id="five"><p id="tw">6 GB</p></td>
+            <td id="five"><p id="tw">192-bit</p></td>
+            <td id="five"></td>
+        </tr>
+        <tr>
+            <td id="six" class="Model">GTX 1550</td>
+            <td id="six"><p id="tw">1000 zl</p></td>
+            <td id="six"><p id="tw">8 GB</p></td>
+            <td id="six"><p id="tw">128-bit</p></td>
+            <td id="six"></td>
+        </tr>
+        <tr>
+            <td id="seven" class="Model"><p></p>GTX 1060</td>
+            <td id="seven"><p id="tw">1300 zl</p></td>
+            <td id="seven"><p id="tw">8 GB</p></td>
+            <td id="seven"><p id="tw">192-bit</p></td>
+            <td id="seven"></td>
+        </tr>
     </table>
+    <a href="index.html">Wróć</a>
 </body>
 </html>
